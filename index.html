@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINHA LISTA DE TAREFAS DIARIA</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="container">
+                <h1>MINHA LISTA DE TAREFAS DIARIA</h1>
+            </div>
+
+        </header>
+        <form id="form-contato">
+            <h2> Adicionado Minha Tarefa</h2>
+            <input type="text" id="addTask" required placeholder="Adicione uma tarefa">
+            <button type="submit" class="button-add">Adicionar</button>
+            <button type="reset" id="clear-task" class="clear-task">Limpar Tarefas</button>
+
+        </form>
+        <div class="task-card">
+            <h3>Listagem das Minhas Tarefas</h3>
+            <ul id="ul-task">
+            </ul>
+        </div>
+                <!--Espaço será adicionado as tarefas-->
+                <footer>
+                        <div class="container">
+                            <p>&copy; Lista De Tarefas. Desenvolvido por Luiz. Todos os direitos reservados - 2024</p>
+                        </div>
+                    </footer>
+                    </div>
+                </footer>                
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
